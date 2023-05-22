@@ -1,0 +1,454 @@
+@font-face {
+    font-family: "BEYNO";
+    src: url(../Font/BEYNO.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Cantarell";
+    src: url(../Font/Cantarell.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Panthera";
+    src: url(../Font/Panthera.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Wakanda4Ever";
+    src: url(../Font/Wakanda4Ever.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #9E91B7;
+    font-family: "Panthera";
+    font-size: 68px;
+    font-weight: normal;
+    margin-top: 125px;
+}
+
+h2 {
+    font-family: "BEYNO";
+    font-size: 18px;
+}
+
+p {
+    font-family: "Cantarell";
+    font-size: 12px;
+    font-weight: normal;
+}
+ul{
+    font-family: "Cantarell";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.voir-plus {
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 1px;
+    font-family: "Cantarell";
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(../All_pages/arrière_plan.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* scroll */
+
+.scroll {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    left: 40px;
+    top: 0;
+}
+
+.bar-left {  
+    height: 450px;
+    border-left: solid 3px #9E91B7;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.bar-right {
+    height: 288px;
+    border-left: solid 3px #9E91B7;
+}
+
+.reseaux-sociaux {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    transform: scale(0.8);
+}
+
+.scroll img:hover {
+    -webkit-filter: invert(80%) sepia(0%) saturate(7459%) hue-rotate(228deg) brightness(105%) contrast(101%);
+    filter: invert(80%) sepia(0%) saturate(7459%) hue-rotate(228deg) brightness(105%) contrast(101%);
+}
+
+
+/* Navigation */
+
+.container1 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    top: 30px;
+    right: 100px;
+}
+
+nav img {
+    transform: scale(0.8);
+}
+
+nav img:hover {
+    -webkit-filter: invert(70%) sepia(87%) saturate(3034%) hue-rotate(245deg) brightness(95%) contrast(93%);
+    filter: invert(70%) sepia(87%) saturate(3034%) hue-rotate(245deg) brightness(95%) contrast(93%);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    column-gap: 60px;
+}
+
+nav ul a {
+    color: white;
+    font-family: "BEYNO";
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    padding-bottom: 4px;
+    border-bottom: solid 2px white;
+}
+
+
+/* Black Panther */
+
+#panther .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#panther .container .content {
+    flex-basis: 45%;
+    margin-left: 25px;
+}
+
+#panther .container .content h2 {
+    color: #9E91B7;
+    margin-top: 10px;
+    font-family: "BEYNO";
+    font-size: 32px;
+}
+
+#panther .container .content p {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: "Cantarell";
+}
+
+.image-panther {
+    flex-basis: 51%;
+    height: 500px;
+}
+
+.image-panther img {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1.2);
+}
+
+/* Carrousel */
+
+#carrousel {
+    background-color: #07338c46;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    column-gap: 20px;
+    height: 250px;
+}
+
+.image-carrousel-active {
+    margin-top: -35px;
+    margin-left: 30px;
+}
+
+.description {
+    margin-top: 30px;
+    flex-basis: 30%;
+}
+
+.image-carousel {
+    max-width: 100%;
+    max-height: auto;
+}
+
+#carrousel h2 {
+    font-family: "BEYNO";
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#carrousel p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* Civil T'Challa */
+
+#civil {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 200px auto 0 auto;
+}
+
+#civil h2 {
+    margin-top: 25px;
+    color: #9E91B7;
+}
+
+#civil p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+#civil ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: '-';
+}
+
+.civil {
+    display: flex;
+    flex-direction: row;
+    column-gap: 160px;
+}
+
+.tchat {
+    background-color: white; 
+    margin-top: 200px; 
+    padding: 0 30px;
+    width: 180%;
+    height: 550px; 
+    border-radius: 10px;
+}
+
+.image-civil img {
+    max-width: 100%;
+    margin-top: -220px;
+    height: auto;
+}
+
+
+/* Design Hero */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+}
+
+.image-hero {
+    width: 250%;
+    margin-top: 40px;
+}
+
+.image-hero img {
+    max-width: 100%;
+}
+
+/* Formulaire */
+
+#contact {
+    background-image: url("../Accueil/Pantherhome7.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.contact {
+    background: linear-gradient(180deg, white, transparent);
+    color: #021740;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 350px;
+    padding-top: 50px;
+    width: 50%;
+    border-radius: 130px;
+    height: 600px;
+}
+
+.contact h2 {
+    font-family: "Cantarell";
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire input[type="text"] {
+    border-radius: 38px;
+    border: solid 1px #021740;
+    background-color: transparent;
+    width: 520px;
+    height: 56px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.formulaire textarea {
+    border-radius: 38px;
+    border: solid 1px #021740;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.formulaire input[type="submit"] {
+    background-color: #F2CEF2;
+    margin-top: 20px;
+    margin-left: 175px;
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+}
+
+.formulaire input[type="submit"]:hover {
+    filter: drop-shadow(0 0 20px  #021740);
+}
+
+/* Footer */
+
+footer {
+    background-image: url(../All_pages/back_footer.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.pied-de-page {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 300px;
+    width: 80%;
+    height: 800px;
+}
+
+.logo-marvel {
+    align-items: left;
+}
+
+.img-footer1 {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1);
+    margin-top: 20px;
+}
+
+.img-marveil {
+    position: relative;
+    margin-top: -500px;
+}
+
+.contact-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 50px;
+    margin-top: -100px;
+    width: 500px;
+}
+
+.pages a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.apropos {
+    margin-top: 30px;
+}
+
+.social-footer img {
+    margin-top: 30px;
+    margin-left: 4px;
+    transform: scale(0.7);
+}
+
+.contact-social h2 {
+    font-family: "Cantarell";
+    font-size: 22px;
+    letter-spacing: 28%;
+}
+
+.copyright {
+    margin-top: 100px;
+}
+
+.droit li::before {
+    content: "\2022";
+    color: #DF99F2;
+    font-size: 20px;
+}
+
+.droit ul {
+    column-gap: 4px;
+}
+
+
+
+
