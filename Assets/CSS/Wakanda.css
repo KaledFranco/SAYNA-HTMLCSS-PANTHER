@@ -179,8 +179,8 @@ footer {
     height: 800px;
 }
 
-.logo-marveil {
-    align-items: center;
+.logo-marvel {
+    align-items: left;
 }
 
 .img-footer1 {
@@ -227,7 +227,7 @@ footer {
     letter-spacing: 28%;
 }
 
-.droit {
+.copyright {
     margin-top: 100px;
 }
 
@@ -240,4 +240,3 @@ footer {
 .droit ul {
     column-gap: 4px;
 }
-

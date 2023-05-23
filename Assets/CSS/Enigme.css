@@ -17,16 +17,64 @@
     font-family: "Wakanda4Ever";
     src: url(../Font/Wakanda4Ever.ttf) format("truetype");
 }
+/*l'entete*/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+p {
+    font-family: "Cantarell";
+    font-size: 12px;
+    font-weight: normal;
+}
 
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 
+body {
+    background-image: url(../All_pages/arrière_plan.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: white;
+}
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+nav img {
+    transform: scale(0.8);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    column-gap: 60px;
+}
+
+nav ul a {
+    color: white;
+    font-family: "BEYNO";
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    padding-bottom: 4px;
+    border-bottom: solid 2px white;
+}
 
 
 
