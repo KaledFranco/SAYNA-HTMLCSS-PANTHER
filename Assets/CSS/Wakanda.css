@@ -181,6 +181,7 @@ footer {
 
 .logo-marvel {
     align-items: left;
+    
 }
 
 .img-footer1 {
@@ -190,9 +191,12 @@ footer {
     margin-top: 20px;
 }
 
-.img-marveil {
+.img-marvel {
     position: relative;
-    margin-top: -500px;
+    margin-top: -200px;
+    display: block;
+    left: 100px;
+    height: 30px;
 }
 
 .contact-social {
