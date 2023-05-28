@@ -77,11 +77,6 @@ nav ul a:hover {
 }
 
 
-
-
-
-
-
 /* Footer */
 
 footer {
@@ -108,18 +103,27 @@ footer {
 }
 
 .img-footer1 {
+    position: relative;
     max-width: 100%;
     max-height: 100%;
     transform: scale(1);
-    margin-top: 20px;
+    margin-top: -200px;
+    left: 230px;
+    height: 325px;
+    opacity: calc(2);
 }
 
-.img-marvel {
+.img-footer2 {
     position: relative;
-    margin-top: -200px;
+    margin-top: -190px;
     display: block;
-    left: 100px;
+    left: 300px;
     height: 30px;
+}
+.footer-droite{
+    position: relative;
+    left: 400px;
+    
 }
 
 .contact-social {
@@ -154,16 +158,16 @@ footer {
     letter-spacing: 28%;
 }
 
-.copyright {
+.Copyright {
     margin-top: 100px;
 }
 
-.droit li::before {
+.Copyright li::before {
     content: "\2022";
     color: #DF99F2;
     font-size: 20px;
 }
 
-.droit ul {
+.Copyright ul {
     column-gap: 4px;
 }
